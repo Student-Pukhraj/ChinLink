@@ -21,8 +21,8 @@ export default function Home() {
             We are the most straightforward URL shortener in the world. Most of the url shoteners will track you or ask you to give your details for login. We understand your needs and hence we have created this URL shortener
           </p>
           <div className='flex gap-3'>
-            <Link href="/shorten"><button className='bg-rose-500 rounded-lg shadow-lg p-3 py-1 font-bold text-white'>Try Now</button></Link>
-            <Link href="https://github.com/Student-Pukhraj/"><button className='bg-rose-500 rounded-lg shadow-lg p-3 py-1 font-bold text-white'>GitHub</button></Link>
+            <Link href="/shorten"><button className='bg-rose-500 cursor-pointer rounded-lg shadow-lg p-3 py-1 font-bold text-white'>Try Now</button></Link>
+            <Link href="/github"><button className='bg-rose-500 cursor-pointer rounded-lg shadow-lg p-3 py-1 font-bold text-white'>GitHub</button></Link>
           </div>
         </div>
         <div className=" flex justify-start relative">
