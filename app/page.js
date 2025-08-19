@@ -15,10 +15,10 @@ export default function Home() {
       <section className="grid grid-cols-2 h-[70vh]">
         <div className="flex flex-col gap-4 items-center justify-center">
           <p className={`text-3xl font-bold ${poppins.className}`}>
-            The best URL shortener in the Market
+            The Best URL Shortener in the Market
           </p>
           <p className="px-28 text-center">
-            We are the most straightforward URL shortener in the world. Most of the url shoteners will track you or ask you to give your details for login. We understand your needs and hence we have created this URL shortener
+             We believe in simplicity. Unlike most URL shorteners that track users or require sign-ups, our service focuses only on what matters—fast, secure, and private link shortening with zero hassle.
           </p>
           <div className='flex gap-3'>
             <Link href="/shorten"><button className='bg-rose-500 cursor-pointer rounded-lg shadow-lg p-3 py-1 font-bold text-white'>Try Now</button></Link>
