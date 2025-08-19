@@ -13,8 +13,8 @@ const Navbar = () => {
         <Link href="/shorten"><li>Shotner</li></Link>
         <Link href="/contact"><li>Contact Us</li></Link>
         <li className='flex gap-3'>
-          <Link href="/shorten"><button className='bg-rose-500 rounded-lg shadow-lg p-3 py-1 font-bold'>Try Now</button></Link>
-          <Link href="/github"><button className='bg-rose-500 rounded-lg shadow-lg p-3 py-1 font-bold'>GitHub</button></Link>
+          <Link href="/shorten"><button className='bg-rose-500 cursor-pointer rounded-lg shadow-lg p-3 py-1 font-bold'>Try Now</button></Link>
+          <Link href="/github"><button className='bg-rose-500 rounded-lg cursor-pointer shadow-lg p-3 py-1 font-bold'>GitHub</button></Link>
         </li>
       </ul>
     </nav>
